@@ -839,19 +839,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jose\\.nuget\\packages\\": {}
+    "C:\\Users\\Silvio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jose\\source\\repos\\orlandoxnica\\ProjetoEngenhariaSoftware\\Clinica\\Clinica.HelpApplication\\Clinica.HelpApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Silvio\\Documents\\GitHub\\ProjetoEngenhariaSoftwareClinica\\Clinica\\Clinica.HelpApplication\\Clinica.HelpApplication.csproj",
       "projectName": "Clinica.HelpApplication",
-      "projectPath": "C:\\Users\\Jose\\source\\repos\\orlandoxnica\\ProjetoEngenhariaSoftware\\Clinica\\Clinica.HelpApplication\\Clinica.HelpApplication.csproj",
-      "packagesPath": "C:\\Users\\Jose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jose\\source\\repos\\orlandoxnica\\ProjetoEngenhariaSoftware\\Clinica\\Clinica.HelpApplication\\obj\\",
+      "projectPath": "C:\\Users\\Silvio\\Documents\\GitHub\\ProjetoEngenhariaSoftwareClinica\\Clinica\\Clinica.HelpApplication\\Clinica.HelpApplication.csproj",
+      "packagesPath": "C:\\Users\\Silvio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Silvio\\Documents\\GitHub\\ProjetoEngenhariaSoftwareClinica\\Clinica\\Clinica.HelpApplication\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "D:\\Users\\Jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Silvio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -900,7 +905,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
