@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Controller_View\Forms\Admin\FormAddPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Admin\FormAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Admin\FormAtualizaFuncoesUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Admin\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Utente\FormAtribuirTerapeuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormCriarMedTraExer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormCriarPrescricao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormHistoricoPrescricoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Utente\FormHistoricoUtentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Admin\FormListarPessoas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Admin\FormListaUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Autenticacao\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormPlanoTratamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Utente\FormPlanoTratamentoUtente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormSessaoTratamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormTratamentosRealizados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Utente\FormUtente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controller_View\Forms\Terapeuta\FormTerapeuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
