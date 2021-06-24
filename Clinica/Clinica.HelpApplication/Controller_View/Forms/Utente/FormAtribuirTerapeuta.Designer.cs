@@ -62,6 +62,7 @@ namespace Clinica.HelpApplication
             // 
             // comboBoxPrescricao
             // 
+            this.comboBoxPrescricao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPrescricao.FormattingEnabled = true;
             this.comboBoxPrescricao.Location = new System.Drawing.Point(97, 26);
             this.comboBoxPrescricao.Name = "comboBoxPrescricao";
@@ -178,6 +179,7 @@ namespace Clinica.HelpApplication
             // 
             // comboBoxTerapeuta
             // 
+            this.comboBoxTerapeuta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTerapeuta.FormattingEnabled = true;
             this.comboBoxTerapeuta.Location = new System.Drawing.Point(97, 436);
             this.comboBoxTerapeuta.Name = "comboBoxTerapeuta";

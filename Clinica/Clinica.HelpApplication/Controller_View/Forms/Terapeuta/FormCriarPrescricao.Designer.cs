@@ -50,6 +50,7 @@ namespace Clinica.HelpApplication
             this.labelHorarioExercicios = new System.Windows.Forms.Label();
             this.textBoxHorarioExercicios = new System.Windows.Forms.TextBox();
             this.textBoxTerapeuta = new System.Windows.Forms.TextBox();
+            this.labelFormatoData = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelCriarPrescricao
@@ -245,11 +246,22 @@ namespace Clinica.HelpApplication
             this.textBoxTerapeuta.Size = new System.Drawing.Size(185, 23);
             this.textBoxTerapeuta.TabIndex = 21;
             // 
+            // labelFormatoData
+            // 
+            this.labelFormatoData.AutoSize = true;
+            this.labelFormatoData.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelFormatoData.Location = new System.Drawing.Point(129, 54);
+            this.labelFormatoData.Name = "labelFormatoData";
+            this.labelFormatoData.Size = new System.Drawing.Size(69, 12);
+            this.labelFormatoData.TabIndex = 22;
+            this.labelFormatoData.Text = "AAAA-MM-DD";
+            // 
             // FormCriarPrescricao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 281);
+            this.Controls.Add(this.labelFormatoData);
             this.Controls.Add(this.textBoxTerapeuta);
             this.Controls.Add(this.textBoxHorarioExercicios);
             this.Controls.Add(this.labelHorarioExercicios);
@@ -302,5 +314,6 @@ namespace Clinica.HelpApplication
         private System.Windows.Forms.Label labelHorarioExercicios;
         private System.Windows.Forms.TextBox textBoxHorarioExercicios;
         private System.Windows.Forms.TextBox textBoxTerapeuta;
+        private System.Windows.Forms.Label labelFormatoData;
     }
 }
